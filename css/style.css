@@ -404,17 +404,17 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin: 0 auto;
 }
 
-/* Rating badge — Frame 239 (w:252, h:105, radius:10, padding:20/15, gap:20) */
+/* Rating badge — Frame 239 (w:136, h:49, radius:10, padding:20/8, gap:12) */
 .badge-rating {
   position: absolute;
   top: 28%; right: -10px;
   background: #FFFFFF;
   border-radius: 10px;           /* exact cornerRadius */
   box-shadow: 0 6px 28px rgba(67,86,214,.18);
-  padding: 20px 15px;            /* exact padding */
+  padding: 20px 8px;             /* exact padding */
   display: flex;
   align-items: center;
-  gap: 20px;                     /* exact itemSpacing */
+  gap: 12px;                     /* exact itemSpacing */
   z-index: 10;
 }
 .badge-num {
@@ -444,7 +444,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   white-space: nowrap;
 }
 
-/* Trusted badge — Frame 240 (w:255, h:121, radius:10, padding:30/20, gap:20) */
+/* Trusted badge — Frame 240 (w:120.75, h:57.3, radius:10, padding:30/20, gap:12) */
 .badge-trusted {
   position: absolute;
   bottom: 18%; left: -10px;
@@ -454,7 +454,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   padding: 30px 20px;            /* exact padding */
   display: flex;
   align-items: center;
-  gap: 20px;                     /* exact itemSpacing */
+  gap: 12px;                     /* exact itemSpacing */
   z-index: 10;
 }
 .badge-icon-box {
@@ -678,12 +678,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero-illus-wrap { max-width: 320px; }
   .illus-bg { width: 500px; height: 500px; }
 
-  .badge-rating { top: 14%; right: -4px; padding: 12px 10px; gap: 12px; }
+  .badge-rating { top: 14%; right: -4px; padding: 12px 6px; gap: 8px; }
   .badge-num { font-size: 28px; line-height: 34px; }
   .badge-stars { font-size: 12px; }
   .badge-label { font-size: 14px; line-height: 18px; }
 
-  .badge-trusted { bottom: 12%; left: -4px; padding: 16px 12px; gap: 12px; }
+  .badge-trusted { bottom: 12%; left: -4px; padding: 16px 12px; gap: 10px; }
   .badge-trusted-num { font-size: 28px; line-height: 34px; }
   .badge-icon-box { width: 50px; height: 50px; }
   .badge-trusted-top, .badge-trusted-sub { font-size: 14px; line-height: 18px; }
