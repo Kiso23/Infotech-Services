@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Simplifying Compliance For Research Analysts — End-to-end compliance support, regulatory filings, and risk protection." />
+  <title>Logo – Simplifying Compliance For Research Analysts</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="Logo – Home">
+        <svg class="logo-icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="16" cy="16" r="10" stroke="#3D3DC4" stroke-width="2.5"/>
+          <line x1="23.5" y1="23.5" x2="32" y2="32" stroke="#3D3DC4" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="16" cy="16" r="4" fill="#3D3DC4"/>
+        </svg>
+        <span class="logo-text">Logo</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home"     class="nav-link active">Home</a>
+        <a href="#about"    class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Our Services</a>
+        <a href="#pricing"  class="nav-link">Pricing</a>
+        <a href="#faq"      class="nav-link">FAQ</a>
+        <a href="#contact"  class="nav-link">Contact</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="#contact" class="nav-cta">
+        <img src="assets/contact-icon.png" alt="" width="16" height="16" aria-hidden="true" />
+        Contact Us
+      </a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="drawer">
+        <img src="assets/menu-icon.png" alt="" width="24" height="24" class="ham-open" aria-hidden="true" />
+        <span class="ham-close" aria-hidden="true">&#x2715;</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MOBILE DRAWER
+  ============================================================ -->
+  <div class="mob-overlay" id="overlay" aria-hidden="true"></div>
+
+  <aside class="mob-drawer" id="drawer" aria-hidden="true" role="dialog" aria-label="Navigation menu">
+    <div class="mob-head">
+      <a href="#home" class="logo" aria-label="Logo – Home">
+        <svg class="logo-icon" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="10" stroke="#3D3DC4" stroke-width="2.5"/>
+          <line x1="23.5" y1="23.5" x2="32" y2="32" stroke="#3D3DC4" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="16" cy="16" r="4" fill="#3D3DC4"/>
+        </svg>
+        <span class="logo-text">Logo</span>
+      </a>
+      <button class="mob-close-btn" id="drawerClose" aria-label="Close navigation menu">&#x2715;</button>
+    </div>
+
+    <nav class="mob-nav" aria-label="Mobile navigation">
+      <a href="#home"     class="mob-link active"><img src="assets/nav-home.png"     alt="" width="20" height="20" aria-hidden="true" />Home</a>
+      <a href="#about"    class="mob-link"><img src="assets/nav-about.png"    alt="" width="20" height="20" aria-hidden="true" />About Us</a>
+      <a href="#services" class="mob-link"><img src="assets/nav-services.png" alt="" width="20" height="20" aria-hidden="true" />Our Services</a>
+      <a href="#pricing"  class="mob-link"><img src="assets/nav-pricing.png"  alt="" width="20" height="20" aria-hidden="true" />Pricing</a>
+      <a href="#faq"      class="mob-link"><img src="assets/nav-faq.png"      alt="" width="20" height="20" aria-hidden="true" />FAQ</a>
+      <a href="#contact"  class="mob-link"><img src="assets/nav-contact.png"  alt="" width="20" height="20" aria-hidden="true" />Contact</a>
+    </nav>
+
+    <a href="#contact" class="mob-cta">Contact Us</a>
+  </aside>
+
+  <main>
+
+    <!-- ============================================================
+         SECTION 1 — HERO
+    ============================================================ -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+
+        <!-- Left: copy -->
+        <div class="hero-left">
+          <h1 class="hero-h1" id="hero-heading">
+            Simplifying<br>
+            <span class="blue-word">Compliance</span> For<br>
+            Research Analysts
+          </h1>
+
+          <!-- Figma underline vector under "Compliance" -->
+          <div class="underline-wrap" aria-hidden="true">
+            <img src="assets/underline-vector.png" alt="" class="underline-img" />
+          </div>
+
+          <p class="hero-para">
+            Stay Focused On Your Insights—We'll Handle The Compliance. Our Expert
+            Solutions Ensure Your Research Practices Meet Every Regulatory
+            Requirement With Confidence And Ease
+          </p>
+
+          <ul class="hero-list" aria-label="Key features">
+            <li>
+              <span class="tick" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#3D3DC4"/><path d="M6 10.5l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              End-To-End Compliance Support
+            </li>
+            <li>
+              <span class="tick" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#3D3DC4"/><path d="M6 10.5l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Regulatory Filings Made Simple
+            </li>
+            <li>
+              <span class="tick" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#3D3DC4"/><path d="M6 10.5l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Tailored Solutions For Independent Analysts &amp; Firms
+            </li>
+          </ul>
+
+          <div class="hero-btns">
+            <a href="#contact" class="btn-solid">Get Started</a>
+            <a href="#contact" class="btn-ghost">Book A Consultation</a>
+          </div>
+        </div>
+
+        <!-- Right: illustration -->
+        <div class="hero-right" aria-hidden="true">
+          <!-- Chevron arrows decoration -->
+          <img src="assets/vector-chevrons.png" alt="" class="hero-chevrons" />
+
+          <div class="hero-illus-wrap">
+            <!-- Light purple blob background -->
+            <div class="illus-bg"></div>
+
+            <!-- Main banner illustration -->
+            <img src="assets/banner-image.png" alt="Compliance professional holding a laptop" class="banner-img" />
+
+            <!-- Floating: 4.8 Rating badge -->
+            <div class="badge-rating" role="img" aria-label="4.8 out of 5 Clients Rating">
+              <span class="badge-num">4.8</span>
+              <div class="badge-stars-col">
+                <span class="badge-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="badge-label">Clients Rating</span>
+              </div>
+            </div>
+
+            <!-- Floating: Trusted By badge -->
+            <div class="badge-trusted" role="img" aria-label="Trusted by 250+ Professionals">
+              <div class="badge-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3D3DC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2"/>
+                  <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+                  <line x1="12" y1="12" x2="12" y2="16"/>
+                  <line x1="10" y1="14" x2="14" y2="14"/>
+                </svg>
+              </div>
+              <div class="badge-info">
+                <span class="badge-trusted-top">Trusted By</span>
+                <span class="badge-trusted-num">250+</span>
+                <span class="badge-trusted-sub">Professionals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — WHY COMPLIANCE MATTERS
+    ============================================================ -->
+    <section class="why" id="about" aria-labelledby="why-heading">
+      <div class="why-inner">
+
+        <!-- Left: heading + illustration -->
+        <div class="why-left">
+          <div class="why-heading-row">
+            <h2 class="why-h2" id="why-heading">
+              Why <span class="blue-word">Compliance Matters</span><br>
+              For Research Analysts
+            </h2>
+            <!-- Swirl decoration -->
+            <div class="why-swirl" aria-hidden="true">
+              <svg width="38" height="80" viewBox="0 0 38 80" fill="none">
+                <path d="M28 4 C40 14 40 28 24 36 C8 44 4 58 18 72" stroke="#8B8FD4" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="18" cy="72" r="4.5" fill="#8B8FD4"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Section 2 illustration (real Figma asset) -->
+          <div class="why-illus">
+            <img
+              src="assets/section2-image.png"
+              alt="Woman working on analytics dashboard with charts and data"
+              class="why-illus-img"
+            />
+          </div>
+
+          <!-- Chevron arrows bottom-left -->
+          <div class="why-chevrons" aria-hidden="true">
+            <img src="assets/vector-chevrons.png" alt="" class="why-chevrons-img" />
+          </div>
+        </div>
+
+        <!-- Right: body + feature cards -->
+        <div class="why-right">
+          <p class="why-para">
+            In Today's Regulatory Environment, Even A Small Oversight Can Lead To
+            Penalties, Reputational Risks, And Loss Of Client Trust. We Help Research
+            Analysts And Firms Navigate Complex Compliance Requirements So They
+            Can Focus On Delivering High-Quality Research Without Worry.
+          </p>
+
+          <div class="cards" role="list">
+
+            <!-- Card 1 -->
+            <div class="card" role="listitem">
+              <div class="card-icon-box">
+                <img src="assets/icon-regulatory.png" alt="" width="36" height="36" aria-hidden="true" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Regulatory Clarity</h3>
+                <p class="card-desc">We Decode Complex Compliance Rules Into Simple, Actionable Steps.</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" role="listitem">
+              <div class="card-icon-box">
+                <img src="assets/icon-filings.png" alt="" width="36" height="36" aria-hidden="true" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Hassle-Free Filings Clarity</h3>
+                <p class="card-desc">From Registration To Ongoing Reporting—We Manage It End-To-End.</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" role="listitem">
+              <div class="card-icon-box">
+                <img src="assets/icon-risk.png" alt="" width="36" height="36" aria-hidden="true" />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Risk Protection</h3>
+                <p class="card-desc">Stay Ahead Of Audits, Inspections, And Compliance Gaps With Proactive Support.</p>
+              </div>
+            </div>
+
+          </div><!-- /.cards -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 Logo. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
