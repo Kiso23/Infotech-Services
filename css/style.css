@@ -416,6 +416,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 20px;                     /* exact itemSpacing */
   z-index: 10;
+  display: none;                 /* Hidden - badges are in the banner image */
 }
 .badge-num {
   font-size: 40px;               /* exact fontSize */
@@ -456,6 +457,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 20px;                     /* exact itemSpacing */
   z-index: 10;
+  display: none;                 /* Hidden - badges are in the banner image */
 }
 .badge-icon-box {
   width: 80px; height: 80px;     /* exact Rectangle 21 size */
