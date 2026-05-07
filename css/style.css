@@ -578,7 +578,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .card-icon-box {
   flex-shrink: 0;
   width: 36px; height: 36px;     /* exact Rectangle size */
-  background: transparent;        /* No background - icons are already blue */
+  background: var(--primary-blue);
   border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
 }
