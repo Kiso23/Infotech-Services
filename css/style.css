@@ -578,14 +578,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .card-icon-box {
   flex-shrink: 0;
   width: 36px; height: 36px;     /* exact Rectangle size */
-  background: var(--primary-blue);
+  background: transparent;        /* No background - icons are already blue */
   border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
 }
 .card-icon-box img { 
   width: 36px; 
   height: 36px; 
-  filter: brightness(0) invert(1); /* Make icons white */
 }
 .card-body {
   display: flex;
