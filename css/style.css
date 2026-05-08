@@ -339,13 +339,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .tick {
   flex-shrink: 0;
   width: 24px; height: 24px;    /* exact check frame size */
-  background: var(--primary-blue);
-  border-radius: 100px;          /* exact cornerRadius */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tick svg { width: 13px; height: 9px; }
+.tick svg { 
+  width: 24px; 
+  height: 24px; 
+}
 
 /* Buttons — Frame 32 (w:450, h:46, gap:24) */
 .hero-btns {
