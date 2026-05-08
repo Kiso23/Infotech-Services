@@ -581,10 +581,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   background: var(--primary-blue);
   border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
+  padding: 6px;                  /* padding for icon inside */
 }
 .card-icon-box img { 
-  width: 36px; 
-  height: 36px; 
+  width: 24px; 
+  height: 24px; 
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Make icons white on blue background */
 }
 .card-body {
   display: flex;
