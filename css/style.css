@@ -272,10 +272,41 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--text-black);
   margin-bottom: 0;
 }
-.blue-word { color: var(--primary-blue); }
+.blue-word-wrapper {
+  display: inline-block;
+  position: relative;
+}
 
-.underline-wrap { margin-bottom: 26px; }    /* gap from Frame 249 */
-.underline-img { width: 350px; height: 41px; margin-top: -10px; }
+.blue-word { 
+  color: var(--primary-blue);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.blue-word-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 350px;
+  height: 15px;
+  background-image: url('../assets/underline-vector.png');
+  background-size: 350px 15px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  display: block;
+}
+
+.underline-img { 
+  position: absolute;
+  bottom: 0;                 /* Position at bottom of the span */
+  left: 0;
+  width: 100%;               /* Full width of "Compliance" */
+  max-width: 350px;
+  height: auto;
+  pointer-events: none;
+  display: block;
+}
 
 .hero-para {
   font-size: 18px;           /* exact fontSize */
@@ -376,9 +407,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .hero-chevrons {
   position: absolute;
-  top: 0; left: 10px;
-  width: 137px; height: 34px;    /* exact Group size */
-  z-index: 2; opacity: .85;
+  top: 0;                        /* Position at top-left of illustration area */
+  left: 0;
+  width: 138px;                  /* actual image width */
+  height: auto;                  /* maintain aspect ratio */
+  z-index: 2; 
+  opacity: .85;
 }
 .hero-illus-wrap {
   position: relative;
