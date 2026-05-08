@@ -407,11 +407,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .hero-chevrons {
   position: absolute;
-  top: 0;                        /* Position at top-left of illustration area */
-  left: 0;
+  top: 40px;                     /* Position at top-left of illustration area */
+  left: 20px;
   width: 138px;                  /* actual image width */
   height: auto;                  /* maintain aspect ratio */
-  z-index: 2; 
+  z-index: 3; 
   opacity: .85;
 }
 .hero-illus-wrap {
