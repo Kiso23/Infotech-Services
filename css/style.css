@@ -409,7 +409,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: absolute;
   top: 40px;                     /* Position at top-left of illustration area */
   left: 20px;
-  width: 200px;                  /* Larger width to make it more visible */
+  width: 138px;                  /* Original image width */
   height: auto;                  /* maintain aspect ratio */
   z-index: 3; 
   opacity: .75;
