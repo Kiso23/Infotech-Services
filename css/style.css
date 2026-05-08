@@ -407,20 +407,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .hero-chevrons {
   position: absolute;
-  width: 138px;                  /* actual image width */
+  top: 40px;                     /* Position at top-left of illustration area */
+  left: 20px;
+  width: 200px;                  /* Larger width to make it more visible */
   height: auto;                  /* maintain aspect ratio */
   z-index: 3; 
-  opacity: .85;
-}
-
-.hero-chevrons-1 {
-  top: 40px;                     /* First row */
-  left: 20px;
-}
-
-.hero-chevrons-2 {
-  top: 80px;                     /* Second row - 40px below first */
-  left: 20px;
+  opacity: .75;
 }
 .hero-illus-wrap {
   position: relative;
